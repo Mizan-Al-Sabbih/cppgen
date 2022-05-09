@@ -1,0 +1,4 @@
+rule cmake 
+   command = cmake -S ./ -B build/
+
+build cppgen: cmake
